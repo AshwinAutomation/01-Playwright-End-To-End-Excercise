@@ -1,0 +1,11 @@
+ Execute code using codegen
+ -----------------------------------
+ 1.Go to project dir
+ 2. open cmd
+ 3. Execute the below command 
+ 
+ 
+ mvn exec:java -e -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="codegen automationpractice.com/index.php"
+
+
+
